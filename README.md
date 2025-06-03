@@ -31,7 +31,7 @@
 
   **Transitive Dependency** -> When a dependencies is dependent on other.
 
-  **Effective POM** -> Parenyt of POM
+  **Effective POM** -> Parent of POM
   - Right click on pom.xml -> Maven -> Show effective POM
   - Whatever operation we perform on pom.xml thechanges are done automatically to Effective POM which the project reads.
 
@@ -43,9 +43,41 @@
   - If the dependencies is not present in M2 file the Maven will download from internet and keep a copy of that in the M2 file for future use.
   - If any issue with dependencies version go to  M2 folder then delete the version.
  
+
+  # Spring Framework
+
+  - A lightweight framework.
+  - Works with POJOs(Plain Old Java Object).
+  - https://spring.io/
+  - https://docs.spring.io/spring-framework/reference/index.html
+ 
+  ## Prerequisites
+
+  - Core java
+  - JDBC
+  - Build Tool(Maven or Gradle)
+  - Spring ORM(Hibernate)
+  - Servlet
+ 
+  ### IDE
+
+  - Eclips - Open Help -> Eclips marketplace -> search Spring tool 4.
+  - VS Code - Extension -> Spring Boot Extension Pack and Spring Initializr Java Support.
+  - IntelliJ - New Project -> Maven Archetype -> project name ->
+ 
+  ## IoC and DI
+
+  ### Inversion of Control
+
+  - Inverting the control
+  - Giving the control of creating , maintaning and destroying object and focusing mainly on the business logic and done even for data flow
+  - To achive this in spring we have IoC container where spring will create the objects and it will be kept inside IoC container, this concept is called IoC Principle.
+  - ![WhatsApp Image 2025-06-03 at 10 18 11_862fde6c](https://github.com/user-attachments/assets/2a1f48d2-f579-4e9a-bece-d4a2f91e65e2)
+  - To make the IoC work we need Dependency Injection.
     
-## JDBC Connection
+  ### Dependency Injection
 
+  - Helps to inject the object created by IoC into the Application.(Dependency Injection Design Pattern)
 
-
-## CRUD Operation
+  **Ioc is a principle and Dependency Injection is a Design pattern**
+ 
