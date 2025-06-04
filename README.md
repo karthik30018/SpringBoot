@@ -80,4 +80,29 @@
   - Helps to inject the object created by IoC into the Application.(Dependency Injection Design Pattern)
 
   **Ioc is a principle and Dependency Injection is a Design pattern**
- 
+
+
+  # Creating a Spring Boot Project(Intellij)
+
+  - https://start.spring.io/
+  - Do the following
+  - ![Screenshot 2025-06-04 202625](https://github.com/user-attachments/assets/4a7348d2-144c-43f9-9cc1-4b996e29de06)
+  - If needed add dependencies.
+  - Click on generate.
+  - A zip file will be downloaded, unzip it.
+  - Open intellij -> Open -> Select the unziped project and open.
+
+ # Dependency Injection using spring boot
+
+ - **Any object that is created by spring is called *Beans***.
+ - To create an object we have to use `@Component` on top of the class name for which we want to create object.
+ - ![Screenshot 2025-06-04 205559](https://github.com/user-attachments/assets/bb8bdc90-da0c-494f-8f6d-1be3f77f17f8)
+
+ - `@Autowired` is used for dependent object, it tells the spring to create the object and wire or connect the object to that perticular class.
+ - main is dependent on Alien and it is dependent on Laptop ( Main => Alien => Laptop )
+ - ![Screenshot 2025-06-04 211835](https://github.com/user-attachments/assets/58b36988-4865-4542-b051-43664a707633)
+
+
+# Annotations: 
+
+- `@Component` - Used on top of the class name for which you want to create an object.
