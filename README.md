@@ -102,6 +102,29 @@
  - main is dependent on Alien and it is dependent on Laptop ( Main => Alien => Laptop )
  - ![Screenshot 2025-06-04 211835](https://github.com/user-attachments/assets/58b36988-4865-4542-b051-43664a707633)
 
+# Spring 1st Project
+
+- Follow the steps
+- ![Screenshot 2025-06-05 100034](https://github.com/user-attachments/assets/b70e2b95-bd45-435a-8cc9-51b7bd57273b)
+- Add spring dependencies (Spring Context) https://mvnrepository.com/artifact/org.springframework/spring-context in pom.xml and load maven changes.
+- Since we are using `ClassPathXmlApplicationContext` we have to create a XML file in main -> resources(Create a directory) -> xml file.
+- In the XML file we have to mention bean tags `<bean>` are object which are managed by spring framework.
+- Open http://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/xsd-configuration.html and copy the code add it in the xml file.
+- ![Screenshot 2025-06-05 175535](https://github.com/user-attachments/assets/5157e1a3-5116-497f-9eb0-dfc65d2d976b)
+- Inside `<beans>` tag create you `bean` tag.
+- <bean> tag manages the class object.
+- The ApplicationContext creates the container and configuration of the container is mentioned in the file which is passed as a parameter.
+- Based on the config xml file the spring will know what class objects needs to be created.
+- ![Screenshot 2025-06-05 180205](https://github.com/user-attachments/assets/3b571c3d-509c-47f0-a45a-0f2c964607a0)
+- ![Screenshot 2025-06-05 180315](https://github.com/user-attachments/assets/a420a881-9042-47bc-ab40-fd0f1ab36513)
+
+
+- The object created by spring are stored in IoC containers to get the container we have to use **Application Context**.
+- There are two option to work with the container
+- 1) BeanFactory(Old one depricated)
+  2) ApplicationContext
+- ApplicationContext contains all the features of BeanFactory and also contains additional features.
+
 
 # Annotations: 
 
