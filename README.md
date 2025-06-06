@@ -125,6 +125,27 @@
   2) ApplicationContext
 - ApplicationContext contains all the features of BeanFactory and also contains additional features.
 
+  ### Object creation
+
+  - Object creation is done in this line  `ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");`.
+  - `Alien obj = (Alien)context.getBean("alien");` which gets the reference of object and stores it in the Obj variable.
+  - Constructor are called when ever the object is created for the class ie: in the ApplicationContext Line.
+  - Can also create n number of object by creating multiple <bean> tag with different id.
+  ![Screenshot 2025-06-06 095555](https://github.com/user-attachments/assets/6f62e7a9-66c1-4e8e-9ee3-96c0f6a7b07f)
+
+  ### Scope
+
+  - Singleton
+  - Prototype
+  - Request (Only for web or web socket)
+  - Session (Only for web or web socket)
+  - But in spring core we will use only to Singleton and Prototype.
+  - By default it follows Singleton.
+  - **If we are creating only one bean tag but want to create multiple object by using getBean(), then we have to specify the scope of the bean**
+  ![Screenshot 2025-06-06 100951](https://github.com/user-attachments/assets/eb3e517b-c378-4ad5-82e2-d928c896f8c0)
+  - **But when using prototype scope the object won't be created in this line `ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");`**
+
+
 
 # Annotations: 
 
