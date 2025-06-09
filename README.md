@@ -145,6 +145,27 @@
   ![Screenshot 2025-06-06 100951](https://github.com/user-attachments/assets/eb3e517b-c378-4ad5-82e2-d928c896f8c0)
   - **But when using prototype scope the object won't be created in this line `ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");`**
 
+  ### Setter Injection
+
+  - Calling a setter method to assign the value.
+  - ![Screenshot 2025-06-09 063715](https://github.com/user-attachments/assets/b87af657-f920-477a-b8a8-f171f04a82ad)
+  - can use n number of property.
+  - For primitive value use "value" in the property.
+
+  ### Ref Attribute
+
+  - For injecting the reference of a object using the Ref attribute.
+  - First we should have the bean for that object class.
+  - Then pass the id of the bean to the ref attribute.
+  - ![Screenshot 2025-06-09 071111](https://github.com/user-attachments/assets/bd5d1d5d-183e-4fe2-a0c3-20094eb7679b)
+  - ![Screenshot 2025-06-09 071849](https://github.com/user-attachments/assets/896076ca-2783-4800-b135-9bfc4c90cd69)
+  - If we have multiple object pass the id of the object which you want to refer.
+  - ![Screenshot 2025-06-09 071742](https://github.com/user-attachments/assets/06c8d458-2ccd-45b8-9862-daca82bacd28)
+
+
+
+
+
 
 
 # Annotations: 
