@@ -161,6 +161,26 @@
   - ![Screenshot 2025-06-09 071849](https://github.com/user-attachments/assets/896076ca-2783-4800-b135-9bfc4c90cd69)
   - If we have multiple object pass the id of the object which you want to refer.
   - ![Screenshot 2025-06-09 071742](https://github.com/user-attachments/assets/06c8d458-2ccd-45b8-9862-daca82bacd28)
+ 
+  ### Constructor Injection
+
+  - If we want to assign the value initially when the object is created.
+  - To assign a value for constructor we have constructr-args.
+  - If we are dealing with multiple parameter then if follows sequence to assign the value.
+  - ![Screenshot 2025-06-11 060912](https://github.com/user-attachments/assets/8f990446-8d63-45cf-9744-35d3fab3673a)
+  - To map the value to that variable we have many ways
+  - 1) By specifying  the `type`.
+       ![Screenshot 2025-06-11 064350](https://github.com/user-attachments/assets/3df3bedb-6aa7-4a51-8dce-14345f9efa65)
+    2) By specifying the `index`(Starts with 0).
+       ![Screenshot 2025-06-11 064518](https://github.com/user-attachments/assets/1a0b8ebc-00cd-4dd7-b0dc-6df0c04ecc94)
+    3) By specifying the `name`(But it should follow the sequence).
+     - To make the `name` work without sequence we have to specify the `@ConstructorProperties({"name1","name2",...})`
+       ![Screenshot 2025-06-11 064850](https://github.com/user-attachments/assets/f8163a40-1a15-48c6-8a6a-0babddd4eac6)
+
+
+## Note: 
+ - If we have values which are compulsory then go with constructor injection.
+ - If optional value or optional property then use setter injection.
 
 
 
