@@ -177,6 +177,12 @@
      - To make the `name` work without sequence we have to specify the `@ConstructorProperties({"name1","name2",...})`
        ![Screenshot 2025-06-11 064850](https://github.com/user-attachments/assets/f8163a40-1a15-48c6-8a6a-0babddd4eac6)
 
+  ### Creating Interface
+
+   - When we are using interface if a new implementation occcurs then no need of changing the main class(Alien).
+   - Based on which object we are passing the compile method is called.
+   - ![Screenshot 2025-06-12 055159](https://github.com/user-attachments/assets/08fd3720-aefe-4c41-a773-cc8bf7c9297c)
+
 
 ## Note: 
  - If we have values which are compulsory then go with constructor injection.
