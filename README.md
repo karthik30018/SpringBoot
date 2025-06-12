@@ -220,6 +220,22 @@
 
 **Note: When we have a non-lazy(eager) bean dependent on a lazy bean, still it will create the object of the lazy bean beacause someone wants it.**
 
+### GetBean by Type
+- When we want an object from the container, we will do `context.getBean("name_of_the_bean")` ,which will return the object type, then we have to type cast it.
+![Screenshot 2025-06-12 070901](https://github.com/user-attachments/assets/a8e4d78d-abda-4f31-bd40-615f380cfe70)
+- To avoid typecasting we can use `context.getBean("name_of_the_bean",Class.type)`
+![Screenshot 2025-06-12 071643](https://github.com/user-attachments/assets/c2718583-6f92-4d03-b9d3-3507e4631a9a)
+- Even we can do this `context.getBean(Class.type)` and don't specify the id in the bean tag, in this case it will search by type.
+![Screenshot 2025-06-12 072620](https://github.com/user-attachments/assets/c876291c-414b-407d-8c03-6bbcbc2affd6)
+- But if we create an object for the *interface* and did'nt set the primary then it will cause same error as when we were doing *byType* because two classes *Laptop* and *Desktop* are implementing this interface *Computer*
+![Screenshot 2025-06-12 073242](https://github.com/user-attachments/assets/5e5f4254-73b9-4d21-9ccd-1449077f7c89)
+- But if we set primary then it works
+![Screenshot 2025-06-12 073324](https://github.com/user-attachments/assets/624ef55f-7350-4126-8bb8-f6b2eb79da11)
+
+
+  
+
+
 
 
 
