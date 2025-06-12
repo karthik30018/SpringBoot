@@ -232,8 +232,11 @@
 - But if we set primary then it works
 ![Screenshot 2025-06-12 073324](https://github.com/user-attachments/assets/624ef55f-7350-4126-8bb8-f6b2eb79da11)
 
+### InnerBean
 
-  
+- To limit a perticular bean to be used only by perticular dependent bean.
+  ![Screenshot 2025-06-12 074618](https://github.com/user-attachments/assets/f338940d-3673-49b8-916e-6fbc650afb44)
+
 
 
 
