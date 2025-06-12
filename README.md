@@ -182,6 +182,20 @@
    - When we are using interface if a new implementation occcurs then no need of changing the main class(Alien).
    - Based on which object we are passing the compile method is called.
    - ![Screenshot 2025-06-12 055159](https://github.com/user-attachments/assets/08fd3720-aefe-4c41-a773-cc8bf7c9297c)
+ 
+  ### Autowiring
+
+  - If we don't want to mention `property` explicitly and wants spring framework to search the dependency based on type or name ..so on then `autowire` is used.
+  - Autowire works when we don't use `property`.
+  - If we are specifying both autowire and property then the preference goes to property.
+  ![Screenshot 2025-06-12 062144](https://github.com/user-attachments/assets/f6eec273-2f4b-4a00-bc93-3319ee295e29)
+  - `autowire="byName"` it looks for the matching name
+  ![Screenshot 2025-06-12 061117](https://github.com/user-attachments/assets/285b4397-91e9-403c-8256-4cde3e5d9f33)
+  - `autowire="byType"` it looks for matching type.
+  ![Screenshot 2025-06-12 061521](https://github.com/user-attachments/assets/4064c619-f5a6-4aac-bdf3-cc0946dcc15c)
+  
+
+
 
 
 ## Note: 
