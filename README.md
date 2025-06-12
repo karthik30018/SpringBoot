@@ -193,7 +193,16 @@
   ![Screenshot 2025-06-12 061117](https://github.com/user-attachments/assets/285b4397-91e9-403c-8256-4cde3e5d9f33)
   - `autowire="byType"` it looks for matching type.
   ![Screenshot 2025-06-12 061521](https://github.com/user-attachments/assets/4064c619-f5a6-4aac-bdf3-cc0946dcc15c)
-  
+  - If we have more then one matching type then it will throw an error to solve this we have to set anyone as primary then the problem will be resolved.
+
+
+  ### Primary Bean
+
+  - By setting primary="true" it solve the confussion for the autowire to choose a bean byType when multipe same type of bean is available.
+  ![Screenshot 2025-06-12 062950](https://github.com/user-attachments/assets/6814486f-464a-444c-b8fa-d9b381ff9c5d)
+  - Note: Even if we are setting bean as primary="true" but if we have explicitly specified the `property` then the property has more scope, it will consider the ref passed in the property.
+  ![Screenshot 2025-06-12 063253](https://github.com/user-attachments/assets/5b3e58d7-176e-40ac-9278-e23ff6489305)
+
 
 
 
