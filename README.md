@@ -177,6 +177,10 @@
      - To make the `name` work without sequence we have to specify the `@ConstructorProperties({"name1","name2",...})`
        ![Screenshot 2025-06-11 064850](https://github.com/user-attachments/assets/f8163a40-1a15-48c6-8a6a-0babddd4eac6)
 
+  ## Note: 
+ - If we have values which are compulsory then go with constructor injection.
+ - If optional value or optional property then use setter injection.
+
   ### Creating Interface
 
    - When we are using interface if a new implementation occcurs then no need of changing the main class(Alien).
@@ -203,13 +207,24 @@
   - Note: Even if we are setting bean as primary="true" but if we have explicitly specified the `property` then the property has more scope, it will consider the ref passed in the property.
   ![Screenshot 2025-06-12 063253](https://github.com/user-attachments/assets/5b3e58d7-176e-40ac-9278-e23ff6489305)
 
+### Lazy Init Bean(Lazy initilization of the Bean)
+
+ - By default all the object are created.
+ ![Screenshot 2025-06-12 064718](https://github.com/user-attachments/assets/a6fec0ca-064a-4cf1-9b60-07afa21cbf00)
+ - If we want an object to be created when called and don't want it to be created by default. use `lazy-init="true"`
+ - Here we are calling the 'Desktop' object so the boject is getting created.
+ ![Screenshot 2025-06-12 065103](https://github.com/user-attachments/assets/5cd5abc5-6288-4c7f-aa0d-fd509fcaf53f)
+ - Here we are not calling the 'Laptop' object so the object won't get created.
+ ![Screenshot 2025-06-12 065252](https://github.com/user-attachments/assets/9bb9780f-34a3-4df7-b147-4a1a0cefe906)
+ - **Advantage: it speeds up the application.**
+
+**Note: When we have a non-lazy(eager) bean dependent on a lazy bean, still it will create the object of the lazy bean beacause someone wants it.**
 
 
 
 
-## Note: 
- - If we have values which are compulsory then go with constructor injection.
- - If optional value or optional property then use setter injection.
+
+
 
 
 
