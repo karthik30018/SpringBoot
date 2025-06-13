@@ -125,6 +125,8 @@
   2) ApplicationContext
 - ApplicationContext contains all the features of BeanFactory and also contains additional features.
 
+## XML Based Configuration
+
   ### Object creation
 
   - Object creation is done in this line  `ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");`.
@@ -237,12 +239,32 @@
 - To limit a perticular bean to be used only by perticular dependent bean.
   ![Screenshot 2025-06-12 074618](https://github.com/user-attachments/assets/f338940d-3673-49b8-916e-6fbc650afb44)
 
+  
+
+## Java Based Configuration
+
+  - Create a seperate package for config class.
+  - Add a `AppConfig` class in the config package.
+  - Here we have to use `ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);`
+  - The **AppConfig** class is imported from config package.
+  - In **AppConfig** class we will be writing all the configuration.
 
 
+### Object creation
 
+  - For creating an object we have to use `ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);`
+  - Then in **AppConfig** class we have to use the annotation `@Configuration` this makes the class as java configuration class.
+  ![Screenshot 2025-06-13 061456](https://github.com/user-attachments/assets/f2326159-ed1b-4ad8-b36e-a83452c01ddb)
+  ![Screenshot 2025-06-13 061441](https://github.com/user-attachments/assets/81b1fe3b-45f8-4e56-bcd4-b169a2aa28a4)
 
+### Bean name 
 
-
+  - We are not specifying the bean name so by default the bean name is the method name.
+  ![Screenshot 2025-06-13 062245](https://github.com/user-attachments/assets/cef415e4-fb92-4962-a548-8aeffa4bd864)
+  - To change the bean name `@Bean(name="any_name")`
+  ![Screenshot 2025-06-13 062612](https://github.com/user-attachments/assets/531fe4d4-bacb-49ab-b40b-2baf430d467a)
+  - We can set multiple name
+  ![Screenshot 2025-06-13 063844](https://github.com/user-attachments/assets/f9c2340e-9750-475b-97a3-a5794ef55cfe)
 
 
 
