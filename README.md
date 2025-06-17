@@ -267,8 +267,26 @@
   ![Screenshot 2025-06-13 063844](https://github.com/user-attachments/assets/f9c2340e-9750-475b-97a3-a5794ef55cfe)
 
 
+### Scope
 
+  - By default the scope of the bean is **Singleton** i.e. only one object can be created by calling `context.getBean()` method, if we use `context.getBean()` multiple time then it will create referene for the         same object.
+  - The object is crested in the line `ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);`
+  - ![Screenshot 2025-06-17 054911](https://github.com/user-attachments/assets/de05a38d-660b-43b9-b5b2-2d959118b739)
+  - To create multiple object we have to set the scope to **Prototype**
+  - By setting the scope to prootype we can create multipe object by calling `context.getBean()`.
+  - The object is created in the line `context.getBean()`.
+  - ![Screenshot 2025-06-17 055420](https://github.com/user-attachments/assets/3a1655ba-cd7b-4b4d-94f8-01e791db729e)
 
+### Autowire
+
+  - If a class is depentent on other class then we have to create a connection(Wiring) between that two classes.
+  - To create a wiring/connection we have to use `@Autowire`.
+  - Here the Alien class is dependent on Computer class.
+  - ![Screenshot 2025-06-17 062730](https://github.com/user-attachments/assets/01ff0927-25ed-4f90-ac9a-7ee3f5bcf4bc)
+  - ![Screenshot 2025-06-17 062805](https://github.com/user-attachments/assets/49fe1e1d-d1e7-4ebe-a9c3-5606ecd00e07)
+  - ![Screenshot 2025-06-17 062911](https://github.com/user-attachments/assets/b8848630-97db-4d42-a5bb-6315bd65aff0)
+  - If we pass desktop() directly then it will make it tightly coupled, What if we are using laptop().
+  - ![Screenshot 2025-06-17 062006](https://github.com/user-attachments/assets/8b331908-80cb-4d8f-be9a-8d044cec67f8)
 
 
 
@@ -276,3 +294,5 @@
 # Annotations: 
 
 - `@Component` - Used on top of the class name for which you want to create an object.
+- `@Scope("Prototype")` - Used to set the scope, by default it will be singleton.
+- 
