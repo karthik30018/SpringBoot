@@ -288,11 +288,27 @@
   - If we pass desktop() directly then it will make it tightly coupled, What if we are using laptop().
   - ![Screenshot 2025-06-17 062006](https://github.com/user-attachments/assets/8b331908-80cb-4d8f-be9a-8d044cec67f8)
 
+### Primary and Qualifier
 
+  - When we have two bean it will throw an error `No qualifying bean of type 'com.spring.Computer' available: expected single matching bean but found 2: desktop,laptop`
+  - Here we are not specifying which bean to use by the Alien class
+  - We can achive it by using `@Qualifier("bean_name")`
+  - ![Screenshot 2025-06-17 081321](https://github.com/user-attachments/assets/bcb129ad-d0a4-47eb-bdce-6ca59d0709ca)
+  - Another approach by using `@Primary`
+  - ![Screenshot 2025-06-17 081502](https://github.com/user-attachments/assets/63bb54c6-586e-4cad-9e26-aea131b63c90)
 
+### Component Stereotype Annotation
 
+  - Stereotype Annotation - Where we can talk to our spring framework with the class metadata itself
+  - By the help of `@Component` no need of creating **XMLConfig** or **AppConfig** files.
+  - ![Screenshot 2025-06-17 083456](https://github.com/user-attachments/assets/dee5225f-1ff9-4b6f-a239-0257d671a9a7)
+  - @Component creates the object for the classes for which the @component is used.
+  - @ComponentScan("Parent_dir_name") which scan for the class file inside the mentioned dir_name.
+
+  - 
 # Annotations: 
 
 - `@Component` - Used on top of the class name for which you want to create an object.
 - `@Scope("Prototype")` - Used to set the scope, by default it will be singleton.
-- 
+
+
