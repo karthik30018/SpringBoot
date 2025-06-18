@@ -1,4 +1,4 @@
-# SpringBoot
+![Screenshot 2025-06-18 054140](https://github.com/user-attachments/assets/1416fbb3-71f8-4bc5-b6b8-3ec9dfdb150c)# SpringBoot
 
 ## Maven
 
@@ -305,7 +305,20 @@
   - @Component creates the object for the classes for which the @component is used.
   - @ComponentScan("Parent_dir_name") which scan for the class file inside the mentioned dir_name.
 
-  - 
+### Autowired
+
+- **Field Injection** - When `@Autowired` annotation used in the filed.
+- ![Screenshot 2025-06-18 053834](https://github.com/user-attachments/assets/e2a3d376-ef2d-43bf-8ff4-0ac43fcb09fc)
+-  **Setter Injection** - When `@Autowired` annotation used in the Setter.
+-  ![Screenshot 2025-06-18 054140](https://github.com/user-attachments/assets/d569bbbf-bdbf-4bf3-bc08-3b4a405c9043)
+-  **Always prefer to use setter injection over field injection**
+-  **Constructor injection** - When `@Autowired` annotation used in Constructor which takes object as a parameter.
+-  When two object are there to mention which object to use, use `@Qualifer("class_name_lowercase")` annotation
+-  ![Screenshot 2025-06-18 054503](https://github.com/user-attachments/assets/5bfc4ee1-587e-4258-8c97-cc8169b02330)
+-  When you want to specify a name for the object
+-  ![Screenshot 2025-06-18 054824](https://github.com/user-attachments/assets/9e42e1ee-6143-4675-823d-58d1bc24d2de)
+
+
 # Annotations: 
 
 - `@Component` - Used on top of the class name for which you want to create an object.
