@@ -318,6 +318,24 @@
 -  When you want to specify a name for the object
 -  ![Screenshot 2025-06-18 054824](https://github.com/user-attachments/assets/9e42e1ee-6143-4675-823d-58d1bc24d2de)
 
+### Primary
+
+- ![Screenshot 2025-06-18 055252](https://github.com/user-attachments/assets/00231de3-a032-4324-aeff-56f3303a6e2e)
+- If we use both `@Qualifier` and `@Primary` then the priority is given to `@Qualifier`.
+- ![Screenshot 2025-06-18 055451](https://github.com/user-attachments/assets/3ec08c6d-065a-4464-844e-6262d64a80a4)
+
+### Scope and value annotation
+
+- To change the scope of the object,From singleton to prototype(By default singleton)
+- ![Screenshot 2025-06-18 055815](https://github.com/user-attachments/assets/e9ebd0c4-823f-4a5d-864b-1225b4c82e3c)
+- **Setting value** -Most suitable for optional dependencies.
+-  two ways one directly by hardcoding
+- ![Screenshot 2025-06-18 060042](https://github.com/user-attachments/assets/f52fcef9-c425-4d3a-b602-e5c795672c37)
+- Another way by using `@Value("property_name or value")`
+- ![Screenshot 2025-06-18 060202](https://github.com/user-attachments/assets/7b72e690-b9c4-4de9-b410-29bfb703c73e)
+- property_name is used when the value is injected from outside the code.
+
+
 
 # Annotations: 
 
