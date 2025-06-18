@@ -1,4 +1,4 @@
-![Screenshot 2025-06-18 054140](https://github.com/user-attachments/assets/1416fbb3-71f8-4bc5-b6b8-3ec9dfdb150c)# SpringBoot
+# SpringBoot
 
 ## Maven
 
