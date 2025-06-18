@@ -335,7 +335,20 @@
 - ![Screenshot 2025-06-18 060202](https://github.com/user-attachments/assets/7b72e690-b9c4-4de9-b410-29bfb703c73e)
 - property_name is used when the value is injected from outside the code.
 
+# Spring Boot
 
+![Screenshot 2025-06-18 061747](https://github.com/user-attachments/assets/45840395-5309-4bfe-814d-f5914332c9cf)
+
+## Annotation in spring boot
+
+- Performing the operation which is done in spring to spring boot
+
+  ![Screenshot 2025-06-18 063158](https://github.com/user-attachments/assets/b68b1da3-1685-42d9-87f0-7ed382d38df5)
+  ![Screenshot 2025-06-18 063300](https://github.com/user-attachments/assets/5d5a5d78-db1e-4067-b87b-ef310a64a802)
+  ![Screenshot 2025-06-18 063331](https://github.com/user-attachments/assets/6352578f-1994-4060-a900-8f9dd323a61c)
+  ![Screenshot 2025-06-18 063345](https://github.com/user-attachments/assets/9c43016a-b269-4acb-8a41-5f787ab8e4a7)
+  ![Screenshot 2025-06-18 063407](https://github.com/user-attachments/assets/e0d8f30d-e847-4fc2-8dde-a115b07614a6)
+  ![Screenshot 2025-06-18 063442](https://github.com/user-attachments/assets/62948017-7be8-4d74-a9f2-8801b48c0dd9)
 
 # Annotations: 
 
