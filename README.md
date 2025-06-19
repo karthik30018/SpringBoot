@@ -350,9 +350,33 @@
   ![Screenshot 2025-06-18 063407](https://github.com/user-attachments/assets/e0d8f30d-e847-4fc2-8dde-a115b07614a6)
   ![Screenshot 2025-06-18 063442](https://github.com/user-attachments/assets/62948017-7be8-4d74-a9f2-8801b48c0dd9)
 
+## Different Layer
+
+  - When we are working with full fleged web application we have three layer client.server and database
+  - ![WhatsApp Image 2025-06-19 at 05 48 38_1b84b31b](https://github.com/user-attachments/assets/8c8824b2-afb5-4f83-9d8b-6f0b5d6b2c44)
+  - The server is responsible for handling request and response, also server has multiple layers.
+  - ![WhatsApp Image 2025-06-19 at 05 50 27_596be7b5](https://github.com/user-attachments/assets/60b7e14d-d6d9-4a6e-8d47-7ad306612f0c)
+  - **Controller** job is to only work with the request.
+  - **Service** is responsible to any kind processing required.
+  - **Repository** if the server wants data from database for processing, we have another layer called **DAO - Data Access Object** aka Repository which is responsible for interacting with the database.
+  - ![WhatsApp Image 2025-06-19 at 05 56 05_49526cf2](https://github.com/user-attachments/assets/76bf9076-75d7-4498-8199-c8a4852c4cc4)
+
+  - Consider `SpringBootDemoApplication` has client.
+  - Model - actuall entity which will be stored in database.
+  - Service - for processing the data.
+  - Repository - to interact with data.
+
+![Screenshot 2025-06-19 063327](https://github.com/user-attachments/assets/0b43aaff-049e-44be-8df9-9f24f48a71a4)
+![Screenshot 2025-06-19 063400](https://github.com/user-attachments/assets/714aa2f8-3324-4aab-9bf0-9aff69efd490)
+![Screenshot 2025-06-19 063410](https://github.com/user-attachments/assets/967b50f1-1e36-4451-83ef-dd8d0d1c04a7)
+
+
+
 # Annotations: 
 
 - `@Component` - Used on top of the class name for which you want to create an object.
+- `@Service` - It is also similar to the Component annotation, both does the same thing, to understand what type of class we are using we will use service on top of service classes.
+- `@Repository` - It is also similar to the Coponent and Service annotation, The thee will be used for Domain-Driven design(While building a MVC architecture to identify the classes)
 - `@Scope("Prototype")` - Used to set the scope, by default it will be singleton.
 
 
