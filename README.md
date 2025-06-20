@@ -370,6 +370,33 @@
 ![Screenshot 2025-06-19 063400](https://github.com/user-attachments/assets/714aa2f8-3324-4aab-9bf0-9aff69efd490)
 ![Screenshot 2025-06-19 063410](https://github.com/user-attachments/assets/967b50f1-1e36-4451-83ef-dd8d0d1c04a7)
 
+# Spring JDBC 
+
+  - JDBC template helps
+      - Connect with database
+      - Fire Queries
+      - Process Data
+      - Get output
+  - Data Source - intermediate between application and dbms which establish connection and maintains it.
+
+## Spring JDBC with H2(in-memory)
+
+  ### JDBC template
+
+  - To create schema we have create a schema.sql in resources folder.
+    ![Screenshot 2025-06-20 065433](https://github.com/user-attachments/assets/2ced1e98-b267-495b-b721-05e94dbde695)
+
+  - ExecuteUpdate -> To perform DDL and DML.
+    ![Screenshot 2025-06-20 065234](https://github.com/user-attachments/assets/2f049bf0-43a0-4daf-88c0-f977a62c0178)
+
+  - ExecuteQuery -> For Select query.
+    ![Screenshot 2025-06-20 073305](https://github.com/user-attachments/assets/1790110e-dc51-4cf4-a35d-65004a19b982)
+
+![Screenshot 2025-06-20 073420](https://github.com/user-attachments/assets/71a76243-1d97-47d9-b890-6b75b525b927)
+![Screenshot 2025-06-20 073436](https://github.com/user-attachments/assets/d8d771be-a5ed-47b8-992e-6bd1febf5340)
+![Screenshot 2025-06-20 073444](https://github.com/user-attachments/assets/38af71c5-179d-4215-ac16-91709013905d)
+![Screenshot 2025-06-20 073526](https://github.com/user-attachments/assets/a6ff6f3e-c715-4217-aaaf-b717bf5c5f50)
+![Screenshot 2025-06-20 073710](https://github.com/user-attachments/assets/e54ce6b1-e611-43e7-be7f-8fecf9932db3)
 
 
 # Annotations: 
