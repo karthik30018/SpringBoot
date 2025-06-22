@@ -398,6 +398,14 @@
 ![Screenshot 2025-06-20 073526](https://github.com/user-attachments/assets/a6ff6f3e-c715-4217-aaaf-b717bf5c5f50)
 ![Screenshot 2025-06-20 073710](https://github.com/user-attachments/assets/e54ce6b1-e611-43e7-be7f-8fecf9932db3)
 
+## Connecting to postgresql
+
+- Open https://mvnrepository.com/artifact/org.postgresql/postgresql/42.7.3
+- Add the dependencies in pome.xml and reload maven.
+- In resources-> application.properties -> Add jdbc url,username,password and driver manager.
+- ![Screenshot 2025-06-22 103234](https://github.com/user-attachments/assets/1b7fa262-125b-4eba-b800-da4005a70717)
+
+
 
 # Annotations: 
 
