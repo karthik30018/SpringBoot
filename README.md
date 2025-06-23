@@ -405,6 +405,21 @@
 - In resources-> application.properties -> Add jdbc url,username,password and driver manager.
 - ![Screenshot 2025-06-22 103234](https://github.com/user-attachments/assets/1b7fa262-125b-4eba-b800-da4005a70717)
 
+# Web App
+
+- **Servlet** -> Which accepts the requset, proceess the request and sends back the response to the client.
+- To run a servlet we need special container called **Servlet Container or Web Container** like tomcat.
+
+## Creating a ServletProject
+
+- Create a meven project and add dependencies.
+- tomcat embed -> https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core
+- Servlet -> https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+- Create a servlet page (Create java file and extends with HttpServlet)
+- ![Screenshot 2025-06-23 070625](https://github.com/user-attachments/assets/777279c9-2f4c-4f7a-bad1-37b6044e9476)
+- Run the tomcat server
+- ![Screenshot 2025-06-23 070715](https://github.com/user-attachments/assets/6839af6e-eb15-4b78-800f-8bd9d86a94cd)
+
 
 
 # Annotations: 
