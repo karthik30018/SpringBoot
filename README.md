@@ -420,6 +420,10 @@
 - Run the tomcat server
 - ![Screenshot 2025-06-23 070715](https://github.com/user-attachments/assets/6839af6e-eb15-4b78-800f-8bd9d86a94cd)
 
+### Servlet Mapping
+- ![Screenshot 2025-06-24 053742](https://github.com/user-attachments/assets/54532891-5ebc-4085-b429-21b9bb296059)
+### Sending Client respnse
+- ![Screenshot 2025-06-24 054551](https://github.com/user-attachments/assets/89912bce-d2a8-4476-bbf9-f0ffd7f0e40b)
 
 
 # Annotations: 
