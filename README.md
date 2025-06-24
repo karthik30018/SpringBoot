@@ -425,6 +425,19 @@
 ### Sending Client respnse
 - ![Screenshot 2025-06-24 054551](https://github.com/user-attachments/assets/89912bce-d2a8-4476-bbf9-f0ffd7f0e40b)
 
+## Introduction to MVC
+
+- ![WhatsApp Image 2025-06-24 at 05 54 31_5f5e72f2](https://github.com/user-attachments/assets/ea90f044-b32e-41aa-84ec-42d1044051dd)
+- Tomcat is a server, which is also a servlet container, which can handle only servlets
+- Behind the scene JSP file are converted into servlet then the tomcat will handle it.(Include dependencies - tomcat jasper - https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper)
+
+- Creating a jsp file (View)
+  ![Screenshot 2025-06-24 061827](https://github.com/user-attachments/assets/28e38b9c-edb2-402a-840d-a5647ca424a0)
+- Creating a Controller
+  ![Screenshot 2025-06-24 062716](https://github.com/user-attachments/assets/0478f788-abe5-4f52-9cb5-ceb281f634fc)
+- Mapping
+  ![Screenshot 2025-06-24 065438](https://github.com/user-attachments/assets/6ac077e5-8121-4fd5-bf1b-14d72c1f3f4d)
+
 
 # Annotations: 
 
