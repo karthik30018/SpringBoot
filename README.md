@@ -437,6 +437,32 @@
   ![Screenshot 2025-06-24 062716](https://github.com/user-attachments/assets/0478f788-abe5-4f52-9cb5-ceb281f634fc)
 - Mapping
   ![Screenshot 2025-06-24 065438](https://github.com/user-attachments/assets/6ac077e5-8121-4fd5-bf1b-14d72c1f3f4d)
+- Sending data to controller
+  By creating a form we can send request to the controller
+  ![Screenshot 2025-06-25 055920](https://github.com/user-attachments/assets/6c7c2e18-0d62-4684-8164-b81f3022b0aa)
+  Through Url the data is passed to the controller
+  ![WhatsApp Image 2025-06-25 at 06 01 20_797767db](https://github.com/user-attachments/assets/803d63f1-9b1e-4b03-b953-9b694c7cc0d4)
+- Accepting data the servlet way
+  **Dispatcher Servlet** - maps all the request.
+  ![Screenshot 2025-06-25 061601](https://github.com/user-attachments/assets/4c9a3333-087a-41fe-8562-b8bf793b4667)
+- Display data on the result page
+  **Session** - to maintain the data between the pages.
+  ![Screenshot 2025-06-25 062730](https://github.com/user-attachments/assets/d5ccb006-731e-4bb2-8039-198bb56358e7)
+- RequestParam
+  The name should be same
+  ![Screenshot 2025-06-25 063412](https://github.com/user-attachments/assets/9ea8c579-3b0e-4c64-86dd-fb362a21a793)
+  ![Screenshot 2025-06-25 063509](https://github.com/user-attachments/assets/de059faa-5005-428c-8192-8acfc0a9b9b9)
+- Model Object
+  ![Screenshot 2025-06-25 064435](https://github.com/user-attachments/assets/b0031af6-565e-4146-bc56-a91aea8eda18)
+- Setting Prefix and Suffix
+  Prefix -> views (views folder)
+  Suffix -> Extension (.jsp)
+  ![Screenshot 2025-06-25 065243](https://github.com/user-attachments/assets/6c08b9d8-b272-443a-946f-6c5d1f234771)
+  ![Screenshot 2025-06-25 065301](https://github.com/user-attachments/assets/4fa1e3bc-edc0-4763-9f21-6161550da51a)
+- Model and View
+  ![Screenshot 2025-06-25 070053](https://github.com/user-attachments/assets/8fc962c4-492b-4427-af1b-ae5f4cde4514)
+
+
 
 
 # Annotations: 
