@@ -1,4 +1,4 @@
-# SpringBoot
+![Screenshot 2025-06-26 061308](https://github.com/user-attachments/assets/552bf81d-57e6-458c-a9f5-22fd6cfecafb)# SpringBoot
 
 ## Maven
 
@@ -461,6 +461,13 @@
   ![Screenshot 2025-06-25 065301](https://github.com/user-attachments/assets/4fa1e3bc-edc0-4763-9f21-6161550da51a)
 - Model and View
   ![Screenshot 2025-06-25 070053](https://github.com/user-attachments/assets/8fc962c4-492b-4427-af1b-ae5f4cde4514)
+- Model Attribute
+  Model Attribute is responsible for assiging the value to the object.
+  ![Screenshot 2025-06-26 060558](https://github.com/user-attachments/assets/3c3089ec-b2cd-44ba-a5db-9054bb3b879c)
+  ![Screenshot 2025-06-26 060713](https://github.com/user-attachments/assets/75b33fbf-432c-48dc-99ec-20d340d3f4ae)
+  ![Screenshot 2025-06-26 060748](https://github.com/user-attachments/assets/4d5b8e36-774f-483b-8a93-790bb9f02e12)
+- Model Attrivbute is used on top of methodes which is common for most the requests.
+  ![Screenshot 2025-06-26 061308](https://github.com/user-attachments/assets/0bc5e1c6-4ae4-447a-8f69-99e961571d31)
 
 
 
