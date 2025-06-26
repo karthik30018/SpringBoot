@@ -469,7 +469,9 @@
 - Model Attrivbute is used on top of methodes which is common for most the requests.
   ![Screenshot 2025-06-26 061308](https://github.com/user-attachments/assets/0bc5e1c6-4ae4-447a-8f69-99e961571d31)
 
+## Introduction to MVC using Spring
 
+- Copy paste all the files from priveous SpringBoot Mvc project to SpringMVCDemo project in eclips.
 
 
 # Annotations: 
