@@ -472,6 +472,15 @@
 ## Introduction to MVC using Spring
 
 - Copy paste all the files from priveous SpringBoot Mvc project to SpringMVCDemo project in eclips.
+- Dispatcher Servlet
+  Which acts as a front controller and handle all the controller.This is the first servlet we have to go through then this will navigate to differernt controller.
+  ![WhatsApp Image 2025-06-27 at 06 13 00_a4ba1600](https://github.com/user-attachments/assets/f06db207-135d-47ea-8f5a-e19d07130d8d)
+  ![Screenshot 2025-06-27 062532](https://github.com/user-attachments/assets/088a0776-681b-4258-acc7-182260206098)
+- Configuring the dispatcherServlet
+  ![Screenshot 2025-06-27 063604](https://github.com/user-attachments/assets/4e5e68d1-3044-44f0-8a83-355f5e098af8)
+- Internal Resource view Resolver
+  ![Screenshot 2025-06-27 064734](https://github.com/user-attachments/assets/67efd4d9-7a46-421e-b0d0-4475f7b255d2)
+  ![Screenshot 2025-06-27 064745](https://github.com/user-attachments/assets/c8e5829b-af4d-46db-b0cf-b89c1812c2ab)
 
 
 # Annotations: 
