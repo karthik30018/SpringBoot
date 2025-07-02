@@ -485,6 +485,8 @@
 
 # Building a Job app
 
+- **DTO - Data Transver Object** - The Object is transfered between different layers.
+
 
 # Annotations: 
 
