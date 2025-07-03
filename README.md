@@ -488,6 +488,39 @@
 - **DTO - Data Transver Object** - The Object is transfered between different layers.
 
 
+# REST using Spring boot
+
+
+- REST (Representational State Transfer) APIs are a way for applications to communicate with each other over the internet. They follow a set of principles that make them efficient and widely used in modern web development.
+- Traditional: Client Request → Server → JSP Page Response
+  REST: Client Request → Server → JSON Data Response
+
+- If we want to develop both a web application and a mobile app, the traditional approach
+requires different backend implementations for each.
+- By using REST APIs, we can develop the frontend separately (using React, Angular,
+mobile native code, etc.). Create a single, unified backend that serves data via REST
+APIs. Enable communication between frontend and backend using JSON
+![Screenshot 2025-07-03 054730](https://github.com/user-attachments/assets/f9256e81-f1bc-4f2f-8f88-9c86c4e94f4a)
+[REST_using_Spring_Boot_Introduction.pdf](https://github.com/user-attachments/files/21026766/REST_using_Spring_Boot_Introduction.pdf)
+
+
+## What is REST
+
+- REST stands for Representational State Transfer. It's an architectural style for designing networked applications.
+- We will be dealing with resources.
+- Data are called state.
+- Server returns the current state [in JSON (JavaScript Object Notation) or XML format]
+[What_is_REST.pdf](https://github.com/user-attachments/files/21026763/What_is_REST.pdf)
+
+ ### HTTP [HyperText Transfer Protocol]
+[Http_Methods.pdf](https://github.com/user-attachments/files/21026823/Http_Methods.pdf)
+
+[Understanding_the_React_UI.pdf](https://github.com/user-attachments/files/21026998/Understanding_the_React_UI.pdf)
+[Working_with_Postman.pdf](https://github.com/user-attachments/files/21027000/Working_with_Postman.pdf)
+
+
+
+
 # Annotations: 
 
 - `@Component` - Used on top of the class name for which you want to create an object.
