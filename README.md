@@ -524,7 +524,7 @@ APIs. Enable communication between frontend and backend using JSON
  - Else we can use `@RestController` insted of `@Controller` without using `@ResponseBody` annotation.
  - ![Screenshot 2025-07-08 060516](https://github.com/user-attachments/assets/0f2755e3-030d-4d21-b8df-0414219db47d)
 
-### Get data 
+### Get Method 
 
 - Controller
   ![Screenshot 2025-07-08 063220](https://github.com/user-attachments/assets/7e1079f3-d494-4807-9585-405c9edda39b)
@@ -551,6 +551,25 @@ APIs. Enable communication between frontend and backend using JSON
 
 - Repo
   ![Screenshot 2025-07-08 062933](https://github.com/user-attachments/assets/38c5dedf-2034-4c5a-9fa8-c16dfc4b25bb)
+
+
+  ### Post Method
+
+  - Controller
+    ![Screenshot 2025-07-08 065234](https://github.com/user-attachments/assets/1c105f24-a495-4bce-ae4d-06ccc6d8dbcb)
+
+  - Service
+    ![Screenshot 2025-07-08 065249](https://github.com/user-attachments/assets/3876444f-57c4-45b0-92d6-638ef65bc5fb)
+
+  - Repo
+    ![Screenshot 2025-07-08 065307](https://github.com/user-attachments/assets/644b46e2-bd12-4d27-b4bd-d96700c856fd)
+
+  - Postman
+    ![Screenshot 2025-07-08 065502](https://github.com/user-attachments/assets/bdd75e37-9578-4521-b6c8-c217abf12b7e)
+
+
+
+
 
   
 
