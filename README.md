@@ -568,14 +568,34 @@ APIs. Enable communication between frontend and backend using JSON
     ![Screenshot 2025-07-08 065502](https://github.com/user-attachments/assets/bdd75e37-9578-4521-b6c8-c217abf12b7e)
 
 
+ ### Put Method
 
+ - Controller
+   ![Screenshot 2025-07-08 183358](https://github.com/user-attachments/assets/1f7e473d-3714-40ac-8270-a3c6ea064dad)
 
+ - Service
+   ![Screenshot 2025-07-08 183406](https://github.com/user-attachments/assets/ca38975f-0956-49f2-a2ab-c6a560a30de7)
 
-  
+ - Repo
+   ![Screenshot 2025-07-08 183419](https://github.com/user-attachments/assets/1cd9bbd5-c33e-43f4-80c0-291862f15987)
 
+ - Postman
+   ![Screenshot 2025-07-08 183431](https://github.com/user-attachments/assets/52d669d7-f1b5-4363-91e6-4382eb5cebf3)
 
+### Delete Method
 
+ - Controller
+  ![Screenshot 2025-07-08 184626](https://github.com/user-attachments/assets/6d9109da-5ea2-4617-a1cf-5e27e221c98c)
+   
 
+ - Service
+   ![Screenshot 2025-07-08 184617](https://github.com/user-attachments/assets/b605e7f6-1c4b-4296-9c13-af13a13f7c12)
+
+ - Repo
+  ![Screenshot 2025-07-08 184626](https://github.com/user-attachments/assets/6d4fe83c-7e4e-43c1-9b3e-0357b47048d3)
+
+ - Postman
+   ![Screenshot 2025-07-08 184805](https://github.com/user-attachments/assets/cf10cead-a426-4eb0-a0ce-e1d3ad599e0a)
 
 
 # Annotations: 
