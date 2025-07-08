@@ -519,6 +519,44 @@ APIs. Enable communication between frontend and backend using JSON
 [Working_with_Postman.pdf](https://github.com/user-attachments/files/21027000/Working_with_Postman.pdf)
 
 
+ - ![Screenshot 2025-07-07 193139](https://github.com/user-attachments/assets/37ef2b8b-d692-4aab-8817-5ff0c4870e7b)
+ - While using `@Controller` if we are returning response body as response insted of view then we have specify that by `@ResponseBody`
+ - Else we can use `@RestController` insted of `@Controller` without using `@ResponseBody` annotation.
+ - ![Screenshot 2025-07-08 060516](https://github.com/user-attachments/assets/0f2755e3-030d-4d21-b8df-0414219db47d)
+
+### Get data 
+
+- Controller
+  ![Screenshot 2025-07-08 063220](https://github.com/user-attachments/assets/7e1079f3-d494-4807-9585-405c9edda39b)
+
+- Service
+  ![Screenshot 2025-07-08 063248](https://github.com/user-attachments/assets/798549f7-8345-450b-b889-041a44fc4e10)
+
+- Repo
+  ![Screenshot 2025-07-08 063325](https://github.com/user-attachments/assets/efd5748b-2445-4c61-bfae-6f150b9896bc)
+
+
+### Path Variable
+
+- `@PathVariable("Variable name")` - Which checks for the path, if available then it finds the parameter(Curley Bracket) which is passed in the URL
+- Variable Name - which variable we are targeting.
+  ![Screenshot 2025-07-08 063131](https://github.com/user-attachments/assets/c4a0ceb6-7895-4587-8560-b77a9b53e553)
+
+
+- Controller
+  ![Screenshot 2025-07-08 062810](https://github.com/user-attachments/assets/970538bc-1a81-4442-b03f-7a60e7b51c54)
+
+- Service
+  ![Screenshot 2025-07-08 062906](https://github.com/user-attachments/assets/39efd1c2-38f3-4fce-a0d6-0befa6d7be25)
+
+- Repo
+  ![Screenshot 2025-07-08 062933](https://github.com/user-attachments/assets/38c5dedf-2034-4c5a-9fa8-c16dfc4b25bb)
+
+  
+
+
+
+
 
 
 # Annotations: 
