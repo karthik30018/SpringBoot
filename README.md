@@ -598,6 +598,20 @@ APIs. Enable communication between frontend and backend using JSON
    ![Screenshot 2025-07-08 184805](https://github.com/user-attachments/assets/cf10cead-a426-4eb0-a0ce-e1d3ad599e0a)
 
 
+# Content Negotiation
+
+  - Negotiating the content by specifing what to produce and what to consume.
+  - Jackson library is responsible for converting objects into JSON.
+  - To get the same data in XML format add dependency *jackson xml*.
+  - By the help of Content negotiation we can restrict the response to be sent in either json or xml.
+    ![Screenshot 2025-07-09 062519](https://github.com/user-attachments/assets/93938a9f-aed4-4bd9-9bd0-d7fbecf21fd7)
+    By specifying the above it will only return json data.
+  - Like wise for sending data
+     ![Screenshot 2025-07-09 062933](https://github.com/user-attachments/assets/42430237-6c60-403e-ad56-63d1966095ed)
+    Here it only accepts xml data.
+
+
+
 # Annotations: 
 
 - `@Component` - Used on top of the class name for which you want to create an object.
