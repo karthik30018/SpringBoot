@@ -610,6 +610,29 @@ APIs. Enable communication between frontend and backend using JSON
      ![Screenshot 2025-07-09 062933](https://github.com/user-attachments/assets/42430237-6c60-403e-ad56-63d1966095ed)
     Here it only accepts xml data.
 
+# Spring data JPA
+
+## ORM - Object Relational Mapping
+
+- Creating a database table using class with the help of tools, the tool is called ORM tool.
+- The object and relational mapping is done here.
+- Each object is considered as row.
+
+## JPA (Java Persistence API)
+
+- Spring JPA is a module in spring ecosystem which will simplify the task.
+- Specification which is used to connect with ORM tool is called JPA.
+- In future if we wanna switch the ORM tool there will be only minor changes in the code.
+- If we are using ORM tool like hibernate or Spring Autumn then we have to write lot of code, so to simplify it we will be using JPA.
+
+### Creating Table and Insert using JPA
+
+![Screenshot 2025-07-10 063431](https://github.com/user-attachments/assets/b8d18b54-3089-464f-b750-50ff1d9918db)
+![Screenshot 2025-07-10 063448](https://github.com/user-attachments/assets/c21d1875-2676-4c62-8d48-8466361ca687)
+![Screenshot 2025-07-10 063456](https://github.com/user-attachments/assets/ea10ba93-68bc-4681-bde4-385d54c0f6a5)
+![Screenshot 2025-07-10 063920](https://github.com/user-attachments/assets/de52f232-edd8-4849-bd83-4c80e807c33d)
+![Screenshot 2025-07-10 063929](https://github.com/user-attachments/assets/bca50b81-1b08-4046-a3e5-34fb999d10f0)
+![Screenshot 2025-07-10 063935](https://github.com/user-attachments/assets/70340575-d213-4f51-890e-a9ea67860c3d)
 
 
 # Annotations: 
