@@ -635,6 +635,20 @@ APIs. Enable communication between frontend and backend using JSON
 ![Screenshot 2025-07-10 063935](https://github.com/user-attachments/assets/70340575-d213-4f51-890e-a9ea67860c3d)
 
 
+### Fetching data
+
+**FindAll**
+
+<img width="1914" height="988" alt="Screenshot 2025-07-29 060956" src="https://github.com/user-attachments/assets/156270e3-14ee-4fe3-8d67-005d43064900" />
+
+**FindById**
+
+<img width="1842" height="941" alt="Screenshot 2025-07-29 061940" src="https://github.com/user-attachments/assets/8fb89e3d-fa43-4598-aaf0-a69227822d41" />
+
+<img width="1918" height="962" alt="Screenshot 2025-07-29 061857" src="https://github.com/user-attachments/assets/551644a7-90e8-42fc-8187-1f9638364910" />
+
+
+
 # Annotations: 
 
 - `@Component` - Used on top of the class name for which you want to create an object.
