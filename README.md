@@ -647,6 +647,16 @@ APIs. Enable communication between frontend and backend using JSON
 
 <img width="1918" height="962" alt="Screenshot 2025-07-29 061857" src="https://github.com/user-attachments/assets/551644a7-90e8-42fc-8187-1f9638364910" />
 
+### JPQL Query
+
+- If we want a method which is not present by default in the JPA repository, we can specify it by the help of `@Query(JPQL query)`.
+- Like search by name so on..
+
+- <img width="1878" height="964" alt="Screenshot 2025-07-30 053455" src="https://github.com/user-attachments/assets/eb05d950-eced-44bd-b19c-9a237931be53" />
+
+- **Note- The above method will work even if we remove the *query annotation*, it will only work for few cases because JPA uses DSL(Domain Specific Language) which creates certain merhods behind the screen.**
+- For this make sure method name starts with *findBy[variable_name]* like findByMarks, findByAge, findByMarksGreaterThan so on..
+
 
 
 # Annotations: 
