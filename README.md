@@ -657,6 +657,17 @@ APIs. Enable communication between frontend and backend using JSON
 - **Note- The above method will work even if we remove the *query annotation*, it will only work for few cases because JPA uses DSL(Domain Specific Language) which creates certain merhods behind the screen.**
 - For this make sure method name starts with *findBy[variable_name]* like findByMarks, findByAge, findByMarksGreaterThan so on..
 
+### Update and Delete
+
+**Update**
+
+- For Update we will be using save() method.
+- <img width="1919" height="942" alt="Screenshot 2025-07-30 054840" src="https://github.com/user-attachments/assets/30e0c2a0-fedc-46ab-8acc-c389ed23dee4" />
+
+**Delete**
+
+- <img width="1916" height="982" alt="Screenshot 2025-07-30 055026" src="https://github.com/user-attachments/assets/5c5821e8-9513-4fe0-8639-eb059b27b5d3" />
+
 
 
 # Annotations: 
