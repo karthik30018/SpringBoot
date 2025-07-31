@@ -669,7 +669,7 @@ APIs. Enable communication between frontend and backend using JSON
 
 - <img width="1916" height="982" alt="Screenshot 2025-07-30 055026" src="https://github.com/user-attachments/assets/5c5821e8-9513-4fe0-8639-eb059b27b5d3" />
 
-
+# Spring Boot MVC Project
 
 # Annotations: 
 
