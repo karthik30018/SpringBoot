@@ -671,6 +671,12 @@ APIs. Enable communication between frontend and backend using JSON
 
 # Spring Boot MVC Project
 
+# Spring Data Rest
+
+- Helps to develop project without creating controller and service layer
+- Automatically generates the end point (By performing get reequest we can get the other endpoints(HATEOAS)
+- HATEOAS - Links which holds the address of the other resources
+
 # Annotations: 
 
 - `@Component` - Used on top of the class name for which you want to create an object.
