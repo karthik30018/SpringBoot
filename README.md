@@ -677,6 +677,11 @@ APIs. Enable communication between frontend and backend using JSON
 - Automatically generates the end point (By performing get reequest we can get the other endpoints(HATEOAS)
 - HATEOAS - Links which holds the address of the other resources
 
+# Spring AOP (Aspect Oriented Programming)
+
+- It solves the problem of cross cutting concerns means while developing an application other then business logic like security, logs, validation and exception so on...
+- We can develop a seperate class to do perform this concerns and no need of calling those function instead with the help of AOP it will be called automatically.
+
 # Annotations: 
 
 - `@Component` - Used on top of the class name for which you want to create an object.
