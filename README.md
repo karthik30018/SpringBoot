@@ -703,6 +703,14 @@ APIs. Enable communication between frontend and backend using JSON
     - Before
     - After
     - Around
+ 
+## Applying the AOP Conncepts
+
+- Before Advice
+  <img width="1091" height="847" alt="image" src="https://github.com/user-attachments/assets/8a15105c-eed0-45ed-bc71-0fb735e96382" />
+  <img width="1705" height="532" alt="image" src="https://github.com/user-attachments/assets/1e818e27-53d5-40e6-8bf3-3c1853397ce4" />
+
+
 # Annotations: 
 
 - `@Component` - Used on top of the class name for which you want to create an object.
