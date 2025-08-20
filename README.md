@@ -682,6 +682,27 @@ APIs. Enable communication between frontend and backend using JSON
 - It solves the problem of cross cutting concerns means while developing an application other then business logic like security, logs, validation and exception so on...
 - We can develop a seperate class to do perform this concerns and no need of calling those function instead with the help of AOP it will be called automatically.
 
+## Creating an AOP class
+
+- <img width="1918" height="957" alt="image" src="https://github.com/user-attachments/assets/fd1d4a5d-2636-4423-bd87-3be9011e4170" />
+
+### AOP Concepts
+
+- [Spring AOP Concept](https://docs.spring.io/spring-framework/reference/core/aop/introduction-defn.html)
+- [AOP_Concepts.pdf](https://github.com/user-attachments/files/21874224/AOP_Concepts.pdf)
+
+- Aspect : Modularization of a concern that cuts across multiple classes.
+- Joint point(When) : While program is executing, when some thing is to be happen.
+- Advice(What) : What to happen.
+- Aspect(Where-Conceptual) : We will be writing all the Adive and to keep it seperately we will be crearing seperate class, that class is called Aspect.
+- Pointcut(Where-Operational) : Where and where the aspect operations need to be performed
+- Target Object(Whom) : Main things
+- Weaving (How) : Introducing perticular events, it happens at runtime
+- Proxy(The Double) : To change the behavior of the main code, there will be a targer object which is wraped inside the proxy, when someting is happening it is not happening by the target object but it happening through the proxy
+- Type of Advice : What and when to happen when a method is executed.
+    - Before
+    - After
+    - Around
 # Annotations: 
 
 - `@Component` - Used on top of the class name for which you want to create an object.
