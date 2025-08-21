@@ -710,6 +710,16 @@ APIs. Enable communication between frontend and backend using JSON
   <img width="1091" height="847" alt="image" src="https://github.com/user-attachments/assets/8a15105c-eed0-45ed-bc71-0fb735e96382" />
   <img width="1705" height="532" alt="image" src="https://github.com/user-attachments/assets/1e818e27-53d5-40e6-8bf3-3c1853397ce4" />
 
+- Join Point
+  <img width="1298" height="862" alt="image" src="https://github.com/user-attachments/assets/36937931-7acf-4a43-9457-89f2ae8c5590" />
+
+- After
+  <img width="1312" height="883" alt="image" src="https://github.com/user-attachments/assets/405a9a9f-5a1c-463e-95bc-f391a7dea6fc" />
+
+- Proxy - The target object means the method which we are targeting will be wraped by proxy.
+
+
+
 
 # Annotations: 
 
