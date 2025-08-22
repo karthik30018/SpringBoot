@@ -718,6 +718,19 @@ APIs. Enable communication between frontend and backend using JSON
 
 - Proxy - The target object means the method which we are targeting will be wraped by proxy.
 
+- Around (Performance monitoring using Around advice)
+
+  When you want to perform an Advice beafore executing the method and after executing the method.
+
+  <img width="1235" height="817" alt="image" src="https://github.com/user-attachments/assets/efd4ad09-aed2-4959-962a-151ab5daed2d" />
+
+- Validate a perticular input
+
+  Helps to check the value send by the user
+  Also we can change the value
+
+  <img width="1746" height="881" alt="image" src="https://github.com/user-attachments/assets/aa83901b-9e1d-45bc-a957-69656cb169ed" />
+
 
 
 
