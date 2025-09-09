@@ -774,6 +774,29 @@ APIs. Enable communication between frontend and backend using JSON
 
 - Password is not encoded.
 
+## CSRF (Cross-site Request Forgery
+
+- Eg. If we are already loged in to gmail and visit some other malicious website, the website search for the cookies in the browser and pick up the session id of secured site,and try to access this secure site.
+- In other words by using session id accessing data is called CSRF.
+- By default SPring security will handle this.
+
+## Getting CSRF token
+
+- <img width="1517" height="613" alt="image" src="https://github.com/user-attachments/assets/103f5d94-fe5e-43cb-a31d-4942252a8525" />
+- <img width="1362" height="716" alt="image" src="https://github.com/user-attachments/assets/be1b1a75-a169-44aa-bbdb-bc1c834c9f48" />
+- <img width="1362" height="677" alt="image" src="https://github.com/user-attachments/assets/26262d10-9075-4222-beea-da3dd38344f6" />
+
+## Same site Strict
+
+- <img width="1197" height="502" alt="image" src="https://github.com/user-attachments/assets/e53a99d9-e292-4231-bc97-b8b7ae0f94a4" />
+- Others can't access it.
+- Stateless Rest Api - no need of csrf token
+
+## Security Configuration
+
+- Making this as Restless API
+
+
 
 
 
