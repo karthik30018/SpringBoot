@@ -779,6 +779,7 @@ APIs. Enable communication between frontend and backend using JSON
 - Eg. If we are already loged in to gmail and visit some other malicious website, the website search for the cookies in the browser and pick up the session id of secured site,and try to access this secure site.
 - In other words by using session id accessing data is called CSRF.
 - By default SPring security will handle this.
+  ![WhatsApp Image 2025-09-10 at 05 52 41_e6c8c813](https://github.com/user-attachments/assets/b4a670be-16a4-4241-b5e0-965078ce0347)
 
 ## Getting CSRF token
 
@@ -795,6 +796,28 @@ APIs. Enable communication between frontend and backend using JSON
 ## Security Configuration
 
 - Making this as Restless API
+- <img width="1917" height="838" alt="image" src="https://github.com/user-attachments/assets/53a33886-ad7c-4660-aaa4-06e3449b7a60" />
+
+## Disabling CRRF Token
+
+- There are two ways
+
+- ## Lambda
+
+- <img width="1917" height="883" alt="image" src="https://github.com/user-attachments/assets/2f671d3d-7973-4d65-ae79-ed2cce58e62e" />
+
+- Lambda in single line
+
+<img width="1896" height="917" alt="image" src="https://github.com/user-attachments/assets/9d51726c-0c5a-436a-bf2b-9d5ba7413ad3" />
+
+
+- ## Imperative Style (Without Lambda)
+
+- <img width="1917" height="978" alt="image" src="https://github.com/user-attachments/assets/fcafe4b8-e3a8-4bd8-9c7d-7744c4d6018a" />
+
+
+
+
 
 
 
