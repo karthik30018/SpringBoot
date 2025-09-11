@@ -816,6 +816,20 @@ APIs. Enable communication between frontend and backend using JSON
 - <img width="1917" height="978" alt="image" src="https://github.com/user-attachments/assets/fcafe4b8-e3a8-4bd8-9c7d-7744c4d6018a" />
 
 
+## Working with multiple users
+
+- If we didn't specify anything in SecurityConfig ,then by default the Spring security uses userDetailsService to check in application properties for the user and password, if present then user it.
+
+### Creating our own UserDetailsService
+
+- <img width="1918" height="790" alt="image" src="https://github.com/user-attachments/assets/fac48784-b8cb-4c7f-92b6-bfac423fb59e" />
+
+### Creating User table and db properties
+
+
+
+
+
 
 
 
