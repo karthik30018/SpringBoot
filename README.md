@@ -826,8 +826,26 @@ APIs. Enable communication between frontend and backend using JSON
 
 ### Creating User table and db properties
 
+- <img width="1730" height="938" alt="image" src="https://github.com/user-attachments/assets/25b9f4d9-e4fc-4839-83f2-e5ebc894e199" />
 
+- Add this in application.properties file
 
+- <img width="1912" height="792" alt="image" src="https://github.com/user-attachments/assets/c62cec3f-11bb-4084-bc41-6cb74bf62e8e" />
+
+- Add dependency postgresql and spring jpa.
+
+- ![WhatsApp Image 2025-10-13 at 09 06 08_4e1c8175](https://github.com/user-attachments/assets/efd1f44b-ccce-4d15-8296-f2b4c40d6c57)
+- ![WhatsApp Image 2025-10-13 at 09 06 08_610743a8](https://github.com/user-attachments/assets/d1f4406b-1897-4852-8f3e-5ba224d00cd9)
+
+### AuthenticationProvider
+
+- It authenticates the user credientials.
+
+## AuthenticationProvider Requires UserDetailsService
+
+- In Service package create MyUserDetailsService java and also it requires userRepo to get data from database.
+
+- 
 
 
 
