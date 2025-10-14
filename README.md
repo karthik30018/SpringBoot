@@ -830,22 +830,54 @@ APIs. Enable communication between frontend and backend using JSON
 
 - Add this in application.properties file
 
-- <img width="1912" height="792" alt="image" src="https://github.com/user-attachments/assets/c62cec3f-11bb-4084-bc41-6cb74bf62e8e" />
+- <img width="1918" height="737" alt="image" src="https://github.com/user-attachments/assets/9e0f026d-aa46-49ec-8b5d-441224973fc5" />
+
 
 - Add dependency postgresql and spring jpa.
 
 - ![WhatsApp Image 2025-10-13 at 09 06 08_4e1c8175](https://github.com/user-attachments/assets/efd1f44b-ccce-4d15-8296-f2b4c40d6c57)
 - ![WhatsApp Image 2025-10-13 at 09 06 08_610743a8](https://github.com/user-attachments/assets/d1f4406b-1897-4852-8f3e-5ba224d00cd9)
 
+- In SecurityConfig create an authenticaton provider which takes data from userDetails
 ### AuthenticationProvider
 
 - It authenticates the user credientials.
+  
+<img width="1888" height="677" alt="image" src="https://github.com/user-attachments/assets/e6094677-0600-4f37-8c40-36cdbaa1e30d" />
+
+- It is taking data from repository
+<img width="1847" height="995" alt="image" src="https://github.com/user-attachments/assets/a26d8b9c-23d7-4bd6-9478-0f01c94efd9f" />
 
 ## AuthenticationProvider Requires UserDetailsService
 
 - In Service package create MyUserDetailsService java and also it requires userRepo to get data from database.
 
-- 
+<img width="1848" height="787" alt="image" src="https://github.com/user-attachments/assets/e45f5b00-c133-4e76-b510-a687d8464d0c" />
+
+
+<img width="1877" height="895" alt="image" src="https://github.com/user-attachments/assets/beb3c129-d996-46a1-a576-f1116a86c1da" />
+
+<img width="1916" height="906" alt="image" src="https://github.com/user-attachments/assets/7e5f7bc9-6f8a-4417-89e1-7879da9f994a" />
+
+- To return user, user has to be wrapped inside UserDetails
+  
+### UserDetails and UserPrincipal
+
+<img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/db26a8d2-f2d4-42fc-8a9e-e9e0d362c534" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
