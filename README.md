@@ -866,6 +866,22 @@ APIs. Enable communication between frontend and backend using JSON
 <img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/db26a8d2-f2d4-42fc-8a9e-e9e0d362c534" />
 
 
+# Bcrypt
+
+## Hashing - one way means we can encrypt the password but we cann't decrypt it
+
+<img width="1916" height="990" alt="image" src="https://github.com/user-attachments/assets/9a1a88c6-6ccd-47c5-91f0-1e5cf0079a3f" />
+
+<img width="1917" height="952" alt="image" src="https://github.com/user-attachments/assets/c3ebdb2f-38e5-480b-b42b-c762a2f7282e" />
+
+For authentication(existing user login)
+
+<img width="1918" height="858" alt="image" src="https://github.com/user-attachments/assets/64fad1fe-4dc0-47a9-ade1-c1a2e76dfd98" />
+
+
+
+
+
 
 
 
