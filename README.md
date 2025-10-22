@@ -878,6 +878,36 @@ For authentication(existing user login)
 
 <img width="1918" height="858" alt="image" src="https://github.com/user-attachments/assets/64fad1fe-4dc0-47a9-ade1-c1a2e76dfd98" />
 
+# JWT (JSON Web Token) and OAuth
+
+## Cryptography (Encryption and Decryption)
+
+### Encryption - Plain text to ciper text
+
+### Decryption - Ciper text to plain text
+
+### Symmetric key - both the sender and receiver having same key
+   - Key need to be shared before the communication
+
+   - Algorithems - AES(Advanced Encryption Standards)
+                   DES(Data Encryption Standards)
+
+### Asymmetric key - public and private key 
+   - Encryption using public key, Known to all the members in the network
+   - Decryption using private key
+
+   - Algorithems - RSA(Rivest, Shamir, Adleman)
+                   ECC(Elliptic Curve Cryptography)
+
+## Digital Signature
+
+- Sender uses his private key to encrypt and the receiver uses sender public key to decrypt it.
+- Still the hacker can read the data using sender public key
+- To avoid the above use double encryption, first using receiver public key encrypt and for the same do encryption using sender private key
+- same while decryption only the receiver has the private key to decrypt it,first decrypt it using sender's public key then decrypt using receivers private key.
+
+
+
 
 
 
