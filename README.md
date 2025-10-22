@@ -907,6 +907,16 @@ For authentication(existing user login)
 - same while decryption only the receiver has the private key to decrypt it,first decrypt it using sender's public key then decrypt using receivers private key.
 
 
+## JWT (JSON Web Token)
+
+- [JWT](https://www.jwt.io/)
+- Each token has three section
+- Header -algo and type
+- Payload - data
+- Signature - key
+
+- Working - When a user sends a request to a server(Login), the server will give a JWT token which is client responsiblity to store it.
+- After receiving JWT token, for each request the client has to send is JWT token with the request data.
 
 
 
