@@ -919,6 +919,34 @@ For authentication(existing user login)
 - After receiving JWT token, for each request the client has to send is JWT token with the request data.
 
 
+### User Registration
+
+- SecurityConfig
+
+  <img width="1918" height="1028" alt="image" src="https://github.com/user-attachments/assets/6990ca14-97da-4dfb-955a-293013ee05a7" />
+  <img width="1918" height="1007" alt="image" src="https://github.com/user-attachments/assets/daf6cdf1-5e9d-4790-b9c4-b7d7d21e2ebe" />
+
+- Controller
+
+  <img width="1896" height="1007" alt="image" src="https://github.com/user-attachments/assets/e484475b-72b6-488e-8869-1a63b7692011" />
+
+- Service
+
+  <img width="1917" height="1032" alt="image" src="https://github.com/user-attachments/assets/17410155-679b-4ef1-bdfd-90c04aa66145" />
+  <img width="1917" height="1000" alt="image" src="https://github.com/user-attachments/assets/db284388-a834-46e8-a1d1-3eecf4931ca5" />
+
+
+- Model
+
+  <img width="1915" height="1001" alt="image" src="https://github.com/user-attachments/assets/c1ca73fa-8300-4fc0-b2e2-2f5fcc82486e" />
+  <img width="1918" height="1027" alt="image" src="https://github.com/user-attachments/assets/16c1ee1f-d776-499a-84f4-572ce9e1fd83" />
+
+
+- Dao
+
+  <img width="1918" height="917" alt="image" src="https://github.com/user-attachments/assets/ebc4cd83-bab1-45c3-bffc-7b2e847aaa25" />
+
+
 
 
 
