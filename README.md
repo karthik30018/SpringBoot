@@ -947,6 +947,19 @@ For authentication(existing user login)
   <img width="1918" height="917" alt="image" src="https://github.com/user-attachments/assets/ebc4cd83-bab1-45c3-bffc-7b2e847aaa25" />
 
 
+  ### USER Login
+
+  - Controller
+
+    <img width="1918" height="837" alt="image" src="https://github.com/user-attachments/assets/6e476ad7-8d8b-4cb1-bb38-35b48603cf9a" />
+
+  - SecurityConfig
+    
+    <img width="1918" height="872" alt="image" src="https://github.com/user-attachments/assets/187b2287-f107-4b15-ba20-57717ea6a1d6" />
+
+
+
+
 
 
 
