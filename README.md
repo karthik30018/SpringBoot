@@ -958,6 +958,14 @@ For authentication(existing user login)
     <img width="1918" height="872" alt="image" src="https://github.com/user-attachments/assets/187b2287-f107-4b15-ba20-57717ea6a1d6" />
 
 
+### Generating Token
+
+- <img width="1918" height="968" alt="image" src="https://github.com/user-attachments/assets/ec9bb0d1-f93c-40af-ac92-797d5a826a7c" />
+
+- <img width="1911" height="1003" alt="image" src="https://github.com/user-attachments/assets/27ef59e3-4ac0-479b-be56-a51e67fd744b" />
+
+- <img width="1916" height="977" alt="image" src="https://github.com/user-attachments/assets/6091cdbd-4fa5-49ec-8f3a-5871982b7489" />
+
 
 
 
